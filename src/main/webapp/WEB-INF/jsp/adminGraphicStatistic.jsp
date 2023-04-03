@@ -5,11 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="../../CSS/nullstyle.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../../CSS/adminCreateTest.css"
-    />
+    <link rel="stylesheet" type="text/css" href="../../CSS/adminMyTests.css" />
     <title>Management</title>
   </head>
   <body>
@@ -31,42 +27,8 @@
       <div class="nav-text graphicStatistic">Графическая статистика</div>
     </nav>
     <div class="main">
-      <div class="window">
-        <div class="window-title">Добавить тест</div>
-        <form>
-          <div class="razdel">
-            <div>Раздел:</div>
-            <label>
-              <input name="razdel" type="radio" value="Английский" />Английский
-            </label>
-            <label>
-              <input
-                name="razdel"
-                type="radio"
-                value="Технический"
-              />Технический
-            </label>
-            <label>
-              <input
-                name="razdel"
-                type="radio"
-                value="Логический"
-                checked
-              />Логический
-            </label>
-          </div>
-          <div class="theme">
-            <div>Тема:</div>
-            <input
-              class="test"
-              required
-              type="text"
-              placeholder="Введите тему теста"
-            />
-            <button class="add-btn add-theme">Выбрать</button>
-          </div>
-        </form>
-      </div>
+      <canvas id="myChart"></canvas>
+      <canvas id="myChart2"></canvas>
     </div>
     <footer>
       <div class="contacts">
@@ -84,6 +46,7 @@
         <img src="../../img/vk.png" />
       </div>
     </footer>
-    <script src="../../adminCreateTest.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../../graphicStatistic.js"></script>
   </body>
 </html>
