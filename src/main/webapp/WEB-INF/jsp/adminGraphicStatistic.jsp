@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="../../CSS/nullstyle.css" />
-    <link rel="stylesheet" type="text/css" href="../../CSS/adminGraphicStatistic.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../CSS/adminGraphicStatistic.css"
+    />
     <title>Management</title>
   </head>
   <body>
@@ -22,7 +26,7 @@
     <nav>
       <div class="nav-text goUsers">Пользователи</div>
       <div class="nav-text goTests">Создание тестов</div>
-      <div class="nav-text myTests">Мои тесты</div>
+      <div class="nav-text myTests">Список тестов</div>
       <div class="nav-text goPersonal">Личные данные</div>
       <div class="nav-text graphicStatistic">Графическая статистика</div>
     </nav>
