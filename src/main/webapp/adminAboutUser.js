@@ -81,9 +81,8 @@ document.addEventListener('click', (e) => {
       if (XHR2.readyState !== 4) {
         return;
       }
-      if (XHR2.status === 200) {
+      if (XHR2.status === 201) {
         alert('Вы успешно отправили отзыв!');
-        location.href = 'http://localhost:8080/adminPanel/users';
         document.querySelector('.give-review').style.display = 'none';
       }
     };

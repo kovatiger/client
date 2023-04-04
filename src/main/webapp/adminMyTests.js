@@ -35,7 +35,21 @@ XHR.onreadystatechange = function () {
     let count = 1;
     let tests = JSON.parse(XHR.responseText);
     console.log(tests);
-    // for (let i = 0; i < topics.length; i++) {
+    for (let i = 0; i <tests.length; i++){
+      tests[i].testNames.forEach(function (elem){
+      let container = document.createElement('tr')
+      container.classList.add('h');
+      container.innerHTML = `
+      <th>${count}</th>
+      <th>${tests[i].topic}</th>
+      <th>${elem}</th>
+`
+      document.querySelector('table').append(container);
+      ++count;
+      })
+
+    }
+
     //   let container = document.createElement('tr');
     //   container.classList.add('h');
     //   container.innerHTML = `

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="../../CSS/nullstyle.css" />
-    <link rel="stylesheet" type="text/css" href="../../CSS/adminMyTests.css" />
+    <link rel="stylesheet" type="text/css" href="../../CSS/adminGraphicStatistic.css" />
     <title>Management</title>
   </head>
   <body>
@@ -47,6 +47,6 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="../../graphicStatistic.js"></script>
+    <script src="../../adminGraphicStatistic.js"></script>
   </body>
 </html>

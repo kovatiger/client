@@ -30,6 +30,7 @@
       <table>
         <tr class="tr-title">
           <th>id</th>
+          <th>Раздел</th>
           <th>Название теста</th>
         </tr>
       </table>
